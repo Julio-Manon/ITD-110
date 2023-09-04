@@ -1,0 +1,92 @@
+html *{
+    font-family: 'Naston', sans-serif;
+    background-color: #F5C84C;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.picGroup {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 4vh;
+}
+
+.introPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border: 5px solid #FC8C48;
+    border-radius: 50px;
+    box-shadow: 10px 10px #70D6F9;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid #FC8C48;
+    border-radius: 50px;
+    box-shadow: 10px 10px #70D6F9;
+    color: #87D147;
+    background-color: white;
+    
+}
+
+h2 {
+    text-decoration: underline;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #87D147;
+    background-color: white;
+}
+
+p {
+    text-indent: 5vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+}
+
+.pSection {
+    border: 5px solid #FC8C48;
+    border-radius: 50px;
+    box-shadow: 10px 10px #70D6F9;
+    background-color: white;
+}
+
+ol {
+    color: #87D147;
+    background-color: white;
+}
+
+ol ul {
+    display: list-item;
+    list-style: disk;
+    color: black;
+    background-color: white;
+}
+
+ol ul li {
+    list-style: circle;
+    background-color: white;
+}
+
+.linksGroup {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.linkText {
+    cursor: pointer;
+    padding-inline-end: 20px;
+}
+
+.linkText:visited {
+    color: indigo;
+}
